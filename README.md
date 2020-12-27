@@ -1,6 +1,6 @@
 # DPLL
 
-### How to run:	`python dpll.py <filename>`
+How to run:	`python dpll.py <filename>`
 
 The cnf file is parsed into a list of clauses, called cnf, and each clause is a list of literals. An example of the data structure is as below:
 		cnf = [	['-x1', 'x2', 'x3'], ['x2', '-x3', 'x4'],...	]
