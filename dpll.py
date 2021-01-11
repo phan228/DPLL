@@ -123,8 +123,8 @@ def Main(argv):
 
 		cnf = []
 		for i in range(start, clauseNum+start):	
-			cnf.append(find_p[i])				# cnf = [	['x1', 'x2', 'x3', '0'],
-												#			['x2', 'x3', 'x4', '0'], ...]
+			cnf.append(find_p[i])				# cnf = [ ['x1', 'x2', 'x3', '0'],
+									#	  ['x2', 'x3', 'x4', '0'], ...]
 		for i in range(len(cnf)):
 			for j in range(4):
 				cnf[i][j] = int(cnf[i][j])
