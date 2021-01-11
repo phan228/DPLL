@@ -1,4 +1,4 @@
-git # DPLL
+# DPLL
 
 How to run:	`python dpll.py <filename>`
 
