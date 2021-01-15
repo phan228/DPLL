@@ -9,7 +9,7 @@ The cnf file is parsed into a list of clauses, called cnf, and each clause is a 
 		cnf = [	['-x1', 'x2', 'x3'],	
 			['x2', '-x3', 'x4'],...	]
 
-The DPLL algorithm the starts running using the cnf list and a truth_assignment list (which is initialized to empty). This truth_assignment list contains the literals that are assigned to True, for example: [x1, -x2] -> x1 is True and -x2 is True (which means x2 is False)
+The DPLL algorithm the starts running using the cnf list and a truth_assignment list (which is initialized to empty). This truth_assignment list contains the literals that are assigned to True, for example: [x1, -x2] -> x1 is True and -x2 (negated x2) is True (which means x2 is False)
 
 The algorithm first finds all unit clauses and set them to True, then processes all pure literals (only x or -x exist within the whole cnf)
 
